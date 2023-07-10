@@ -1,0 +1,43 @@
+.CarouselGallery {
+    background-color: transparent;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 3rem auto auto auto;
+}
+
+.carouselHolder {
+    background-color: black;
+    height: 75%;
+    width: 75%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 0% 5% 0%;
+}
+
+.galleryImage {
+    height: 700px;
+    width: 1500px;
+    object-fit: fill;
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.6);
+}
+
+.carouselButton {
+    font-size: 500%;
+    cursor: pointer;
+    border: none;
+    text-shadow: 5px 5px 5px black;
+    color: white;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    font-size: 1.5em;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+.carouselButton:hover {
+    text-shadow: 0px 2px 3px red;
+}

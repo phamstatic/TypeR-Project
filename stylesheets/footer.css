@@ -1,0 +1,13 @@
+.FooterSection {
+    height: 150px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.footerText {
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}

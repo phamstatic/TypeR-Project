@@ -1,0 +1,14 @@
+.DescriptionSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descriptionText {
+    font-size: 1.25rem;
+    color : white;
+    text-shadow: 5px 5px 5px black;
+    padding: 0rem 20rem 5rem 20rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
